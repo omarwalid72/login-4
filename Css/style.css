@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input {
+  display: block;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 20px;
+  height: 80%;
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  box-shadow: 5px 10px 10px 1px rgb(32 33 26 /28%);
+
+}
+
+.container .login h2 {
+  font-size: 30px;
+  font-weight: normal;
+  letter-spacing: 2px;
+
+}
+
+.container .login {
+  width: 50%;
+  margin-right: 30px;
+  text-align: center;
+}
+
+.container .login form input {
+  width: 90%;
+  margin: 20px;
+  height: 30px;
+  border: none;
+  border-bottom: 2px solid;
+  outline: none;
+
+}
+
+.container .login form button {
+  width: 90%;
+  height: 30px;
+  font-size: 17px;
+  font-weight: bold;
+  border-radius: 30px;
+  border-style: none;
+  margin-bottom: 10px;
+}
+
+.container .description {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: url(../images/wallpaperflare.com_wallpaper\ \(9\).jpg);
+  background-size: cover;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+width:70%;
+}
+.container .description h2{
+  color: aliceblue;
+  position: relative;
+  bottom: 50px;
+  letter-spacing: 3px;
+  font-size: 40px;
+}
+.container .description p{
+  color: aliceblue;
+  font-size: 20px;
+  line-height: 2;
+  
+}
